@@ -1,1 +1,9 @@
-/home/tanya/.ssh/config
+#CAEN
+Host tl
+	HostName login.engin.umich.edu
+	User	tanyalai
+#Github
+Host github
+	HostName github.com
+	User	tanyalai
+	IdentityFile ~/.ssh/id_rsa
